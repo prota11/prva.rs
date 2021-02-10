@@ -1,0 +1,89 @@
+.textblockGrupaSindjelici
+{
+    border-radius: 6px;
+}
+.textblockGrupaSindjelici h2
+{
+    font-size: 22px;
+    color: #111;
+    line-height: 1.2em;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+.grupaSindjelici:hover
+{
+    text-decoration: none;
+}
+.grupaSindjelici:hover .textblockGrupaSindjelici h2
+{
+    text-decoration: underline;
+}
+.slikaSindjelici
+{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.donjiMeni .trenutna
+{
+    color: #ed1c22;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 767px)
+{
+    .col-12 .velicinaFontaSindjelici
+    {
+        font-size: 18px;
+    }
+    .nav-item .krugovi
+    {
+        width: 30px;
+    }
+}
+.grupaOkvir ul li a:hover
+{
+    opacity: 0.8;
+}
+.komentar
+{
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.nav li a img:hover
+{
+    opacity: 0.8;
+}
+.komentarisi a span
+{
+    border-radius: 60px;
+    padding: 10px 20px;
+    border: 1px solid #a9a9a9;
+    color: #444;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.komentarisi a:hover
+{
+    text-decoration: none;
+}
+.komentarisi a span:hover
+{
+    background: #e6e6e6;
+}
+.grupaOkvir p
+{
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem 0;
+}
+.preporuke h2
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.krugovi
+{
+    width: 50px;
+}

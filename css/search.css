@@ -1,0 +1,35 @@
+.pretraga
+{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 80%, .4);
+}
+.pretrazi a
+{
+    margin-top: 30px;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: white;
+    background: #ed1c22;
+    text-align: center;
+    border-radius: 40px;
+    letter-spacing: 0.5px;
+}
+.pretrazi a ion-icon
+{
+    padding-right: 5px;
+    width: 20px;
+    height: 20px;
+    font-weight: 800;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.pretrazi a:hover
+{
+    filter: brightness(80%);
+}
+.form-control:focus
+{
+    border: red;
+    box-shadow: inset 1px 1px 1px 1px red, 1px 1px 1px 1px red;
+}

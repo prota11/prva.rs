@@ -1,0 +1,711 @@
+#prva
+{
+    padding-right: 4px;
+    white-space: nowrap;
+    color: white;
+}
+.arrow ion-icon
+{
+    width: 12px;
+    height: 12px;
+    color: white;
+    padding: 0 4px;
+}
+.list
+{
+    line-height: 40px;
+    
+}
+.list a
+{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 6px;
+    color: white;
+}
+.list a:hover
+{
+    text-decoration: underline;
+}
+.top
+{
+    padding: 2px 14px 2px 14px;
+    text-decoration: none;
+}
+.plus span
+{
+    background-color: #d70000;
+}
+.max span
+{
+    background-color: #e08411;
+}
+.world span
+{
+    background-color: #00a4ec;
+}
+.kick span
+{
+    background-color: #ac00f2;
+}
+.life span
+{
+    background-color: #25c6f1;
+}
+.files span
+{
+    background-color: #8a99ab;
+}
+#follow
+{
+    margin-left: 10px;
+    padding-right: 4px;
+    white-space: nowrap;
+    color: white;
+}
+.icons img
+{
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+}
+.logo
+{
+    padding: 10px 15px;
+}
+.logo img
+{
+    width: 70px;
+    height: 100%;
+}
+.prva1
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu
+{
+    padding: 25px 15px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.menu a:hover
+{
+    opacity: 0.7;
+    text-decoration: none;
+}
+.menu ion-icon
+{
+    height: 18px;
+    width: 18px;
+    color: white;
+}
+.logoMali img
+{
+    height: 30px;
+    padding-top: 10px;
+}
+.donjiMeni
+{
+    padding: 15px;
+}
+.donjiMeni a
+{
+    text-decoration: none;
+    color: #212121;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.donjiMeni a:hover
+{
+    text-decoration-line: underline;
+}
+.dropdown-menu
+{
+    background: none;
+    border: none;
+}
+.dropdown-menu a:hover
+{
+    background: none;
+}
+.dropdown-item
+{
+    padding-left: 5px;
+    color: white;
+    font-weight: 400;
+}
+#hamburger
+{
+    border: none;
+}
+
+.izgledHamburgera
+{
+    width: 25px;
+    height: 20px;
+    margin: 0px;
+    cursor: pointer;
+    
+}
+.navbar-toggler
+{
+    border: none;
+    padding: 0;
+} 
+.izgledHamburgera span 
+{
+    display: block;
+    margin: 3px 0;
+    height: 3px;
+    width: 100%;
+    opacity: 1;
+    left: 0;
+    background: #f3e5f5;
+}       
+.izgledHamburgera .skraceni
+{
+    width: 18px;
+}
+#dropdownMenuLink
+{
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover
+{
+    opacity: 0.7;
+}
+.dropdown-item:hover
+{
+    opacity: 0.7;
+    color: white;
+}
+.naslovHamburger
+{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+}
+.naslovHamburger:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.upper
+{
+    margin-bottom: 30px;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid white;
+}
+.upper a
+{
+    font-size: 18px;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 30px;
+}
+.upper a:hover
+{
+    text-decoration: underline;
+}
+.lower
+{
+    padding: 0;
+}
+.lower p
+{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+.logo2
+{
+    height: 100px;
+}
+.logo2 img
+{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (min-width: 768px ) and (max-width: 1024px)
+{
+    .textblockGrupa2 .card-text 
+    {
+        font-size: 18px;
+    }
+    .textblockGrupa .velicinaFontaGrupa
+    {
+        font-size: 18px;
+    }
+}  
+@media only screen and (max-width: 767px )
+{
+    .logo2 img
+    {
+        margin-top: 0;
+        max-height: 80px;
+    }
+    .upper a
+    {
+        font-size: 16px;
+    }
+    .textblock1 .tekstSlika1
+    {
+        font-size: 1.375rem;
+    }
+    .text2 .tekstSlika2
+    {
+        font-size: 16px
+    }
+    .naslovSlika1 .rounded-pill
+    {
+        font-size: 16px;
+    }
+}
+.caption {
+    width:100%;
+    top: -7%;
+    position: absolute;
+    color: red;
+}
+.levi1 
+{
+    margin-bottom: 30px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    background: #f5f5f5;
+    border-radius: 6px;
+}
+.levi1:hover
+{
+    text-decoration: none;
+}
+.levaSlika1 
+{
+    width: 100%;
+    border-radius: 6px;
+}
+.naslovSlika1
+{
+    top: -32px;
+}
+.naslovSlika1 span
+{
+    color: white;
+    font-size: 20px;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 5px 20px 5px 20px;
+    
+}
+.text1
+{
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-top: -15px;
+    border-radius: 6px;
+    background: white;
+    position: relative;
+    top: -30px;
+    left: 0;
+    box-shadow: 0 0 21px rgba(0, 0, 0, .1);
+}
+.textblock1
+{
+    padding: 0 15px;
+}
+.textblock1 h2
+{
+    font-size: 2rem;
+    color: #707070;
+    line-height: 1.2em;
+    margin: 0 0 5px 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid hsla(0, 0%, 80%, .4);
+}
+a:hover .textblock1 h2
+{
+    text-decoration: underline;
+}
+a:hover .textblock1 span
+{
+    text-decoration: none;
+}
+.textblock1 span
+{
+    text-decoration: none;
+    color: #666;
+}
+.grupa:hover
+{
+    text-decoration: none;
+}
+.slikaGrupa
+{
+    width: 100%;
+    border-radius: 6px;
+}
+.naslovGrupa
+{
+    top: -32px;
+    
+}
+.naslovGrupa span
+{
+    color: white;
+    font-size: 10px;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 5px 10px 5px 10px;
+}
+.textGrupa
+{
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 6px;
+    background: white;
+    position: relative;
+    left: 0;
+    box-shadow: 0 0 21px rgba(0, 0, 0, .3);
+}
+.textblockGrupa
+{
+    padding: 15px;
+}
+.textblockGrupa h2
+{
+    font-size: 1.375rem;
+    color: #111;
+    line-height: 1.1em;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+    border-bottom: 1px solid hsla(0, 0%, 80%, .4);
+    padding-bottom: 10px;
+}
+.textblockGrupa span
+{
+    color: #666;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.start
+{
+    position: absolute;
+    left: 80%;
+    top: -40%;
+}
+
+.start ion-icon
+{
+    background: #ed1c22;
+    color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 15px solid #ed1c22;
+    box-shadow:0 0 21px rgba(237, 28, 34, .9);
+}
+
+a:hover .textblockGrupa h2
+{
+    text-decoration: underline;
+}
+.levaSlika2
+{
+    width: 100%;
+    border-radius: 6px;
+    filter: brightness(50%);
+    box-shadow: 0 0 21px rgba(0, 0, 0, .3);
+}
+.naslovSlika2
+{
+    top: 5px;
+    left: 10px;
+}
+.naslovSlika2 span
+{
+    color: white;
+    font-size: 12px;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 4px 10px 4px 10px;
+}
+.text2
+{
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-top: -15px;
+    border-radius: 6px;
+    left: 15px;
+    bottom: 0;
+}
+.text2 h2
+{
+    font-size: 1.375rem;
+    color: white;
+    line-height: 1.1em;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+    border-bottom: 1px solid hsla(0, 0%, 80%, .4);
+    padding-bottom: 10px;
+}
+.datum
+{
+    color: #666;
+    font-size: 14px;
+}
+.datum2
+{
+    font-size: 14px;
+}
+.videoText
+{
+    background: #ed1c22;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 12px;
+}
+a:hover .levaSlika2 
+{
+    filter: brightness(70%);
+    transition: 0.4s;
+}
+a:hover .text2 h2
+{
+    text-decoration: underline;
+}
+.slikaGrupa2
+{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.naslovGrupa2
+{
+    top: 5px;
+    left: 20px;
+}
+.naslovGrupa2 span
+{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 4px 10px 4px 10px;
+}
+.text3
+{
+    background: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+a:hover .textblockGrupa2 h2
+{
+    text-decoration: underline;
+}
+.textblockGrupa2
+{
+    background: white; 
+}
+.textblockGrupa2 h2
+{
+    font-size: 1.375rem;
+    color: #111;
+    line-height: 1.1em;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.date
+{
+    background: white;
+    padding-top: 10px;
+}
+.preporuke
+{
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 21px rgba(0, 0, 0, .2);
+}
+.tekstPreporuke
+{
+    color: #111;
+    font-size: 18px;
+}
+.tekstPreporuke:hover
+{
+    text-decoration: none;
+    color: #111;
+}
+.tekstReklama
+{
+    color: #111;
+}
+.tekstReklama:hover
+{
+    color: #111;
+}
+.dugmeReklama
+{
+    border: 1px solid rgba(237, 28, 34);
+    color: #757575;
+}
+.dugmeReklama:hover
+{
+    color: #757575;
+}
+.ce
+{
+    height: 22px;
+}
+.tekstVeb
+{
+    color: #333;
+    text-decoration: none;
+}
+.tekstVeb:hover
+{
+    color: #2bb4c4;
+    text-decoration: none;
+}
+.desnaReklama
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.desnaReklama img
+{
+    width: 100%;
+    height: 100%;
+}
+.program
+{
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+.programNaslov
+{
+    top: -32px;
+    height: 50px;
+}
+.programNaslov span
+{
+    color: white;
+    font-size: 14px;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 4px 10px 4px 10px;
+}
+.programItem1
+{
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebeb;
+    color: #343434;
+    background: white;
+}
+.programTime
+{
+    width: 20%;
+}
+.programName a
+{
+    text-decoration: none;
+    color: #343434;
+}
+.programName a:hover
+{
+    color: #efc700;
+}
+.play
+{
+    padding-left: 20px;
+}
+.play ion-icon
+{
+    background: #ed1c22;
+    color: white;
+    border-radius: 50%;
+    border: 6px solid #ed1c22;
+    box-shadow:0 0 21px rgba(237, 28, 34, .9);
+    vertical-align: middle;
+}
+.programItem2
+{
+    width: 100%;
+    padding: 20px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebeb;
+    background: #ebebeb;
+    color: #343434;
+}
+.naslovVesti
+{
+    top: -30px;
+}
+.naslovVesti span
+{
+    color: white;
+    font-size: 12px;
+    background-color: #4267b2;
+    letter-spacing: 1.5px;
+    padding: 5px 20px 5px 20px;
+}
+.slikaVesti
+{
+    border-radius: 6px;
+    width: 100%;
+    height: 100px;
+}
+.tekstDesna
+{
+    color: #111;
+}
+a:hover .tekstDesna
+{
+    text-decoration: underline;
+}
+.col-12 .carousel-control-prev
+{
+    top: 35%;
+    height: 30px;
+}
+.col-12 .carousel-control-next
+{
+    top: 35%;
+    height: 30px;
+}
+.carousel-indicators .active
+{
+    background: red;
+}
+.carousel-indicators li
+{
+    border-bottom: none;
+    border-top: none;
+    background: #666;
+}

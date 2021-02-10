@@ -1,0 +1,187 @@
+.donjiMeni .trenutna
+{
+    color: #ed1c22;
+    text-decoration: underline;
+}
+.preporuke .znak
+{
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.nav li a img:hover
+{
+    opacity: 0.8;
+}
+.komentarisi a span
+{
+    border-radius: 60px;
+    padding: 10px 20px;
+    border: 1px solid #a9a9a9;
+    color: #444;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.komentarisi a:hover
+{
+    text-decoration: none;
+}
+.komentarisi a span:hover
+{
+    background: #e6e6e6;
+}
+.komentar
+{
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.preporuke h2
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.promena
+{
+    border-radius: 40px;
+    color: #acacac;
+    font-size: 1.75rem;
+    background: #e6e6e6;
+}
+.promena a
+{
+    padding: 0.625rem;
+    text-decoration: none;
+    color: #acacac;
+}
+.promena .trenutna
+{
+    color: #484848;
+}
+.promena .sledeca
+{
+    color: white;
+}
+.promena:hover .sledeca
+{
+    color: rgb(156, 26, 26);
+}
+.sledeca ion-icon
+{
+    border-radius: 50%;
+    border: 1px solid;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.spanovi a
+{
+    color: #ed1c22;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.spanovi a:hover
+{
+    border: 1px solid #ed1c22;
+}
+.tema
+{
+    color: black;
+    line-height: 50px;
+    font-size: 34px;
+    padding: 40px 0 20px 0;
+}
+@media only screen and (max-width: 767px )
+{
+    .preporuke .tema
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .spanovi .rounded-pill
+    {
+        padding: 5px 10px;
+        margin-right: 4px;
+    }
+    .nav-item .krugovi
+    {
+        width: 30px;
+    }
+    .promena .trenutna
+    {
+        font-size: 24px;
+    }
+
+}
+.krugovi
+{
+    width: 50px;
+}
+.povezane span
+{
+    padding: 5px 15px;
+    color: white;
+    background: #ed1c22;
+    border-radius: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.textblockGrupaSlika
+{
+    border-radius: 6px;
+}
+.textblockGrupaSlika h2
+{
+    font-size: 22px;
+    color: #111;
+    line-height: 1.2em;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+.grupaSlika:hover .textblockGrupaSlika h2
+{
+    text-decoration: underline;
+}
+.slikaSlika
+{
+    border-radius: 6px;
+}
+.date
+{
+    border-top: 1px solid hsla(0, 0%, 80%, .4);
+    padding-top: 10px;
+}
+.grupaSlika:hover
+{
+    text-decoration: none;
+}
+.naslovGrupaSlika
+{
+    top: 5px;
+    left: 5px;
+}
+.naslovGrupaSlika span
+{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 4px 10px 4px 10px;
+}
+@media only screen and (min-width: 768px ) and (max-width: 1024px)
+{
+    .col-12 .velicinaFontaSlika
+    {
+        font-size: 18px;
+    }
+}

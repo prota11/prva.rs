@@ -1,0 +1,37 @@
+.donjiMeni .trenutna
+{
+    color: #ed1c22;
+    text-decoration: underline;
+}
+.tekst
+{
+    color: #707070;
+}
+.textblockGrupaGranica
+{
+    padding: 15px 5px;
+}
+.textblockGrupaGranica h2
+{
+    font-size: 1.375rem;
+    color: #111;
+    line-height: 1.1em;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+}
+.slikaGrupa2
+{
+    box-shadow: 0 0 21px rgba(0, 0, 0, .3);
+    width: 100%;
+}
+.grupa:hover .textblockGrupaGranica h2
+{
+    text-decoration: underline;
+}
+@media only screen and (min-width: 768px ) and (max-width: 1024px)
+{
+    .col-12 .velicinaFontaGranica
+    {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,102 @@
+.textblockGrupaZivot
+{
+    border-radius: 6px;
+}
+.textblockGrupaZivot h2
+{
+    font-size: 22px;
+    color: #111;
+    line-height: 1.2em;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+.grupaZivot:hover .textblockGrupaZivot h2
+{
+    text-decoration: underline;
+}
+.slikaZivot
+{
+    border-radius: 6px;
+}
+.date
+{
+    border-top: 1px solid hsla(0, 0%, 80%, .4);
+    padding-top: 10px;
+}
+.grupaZivot:hover
+{
+    text-decoration: none;
+}
+.naslovGrupaZivot
+{
+    top: 5px;
+    left: 5px;
+}
+.naslovGrupaZivot span
+{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ed1c22;
+    letter-spacing: 1px;
+    padding: 4px 10px 4px 10px;
+}
+.promena
+{
+    border-radius: 40px;
+    color: #acacac;
+    font-size: 1.75rem;
+    background: #e6e6e6;
+}
+.promena a
+{
+    padding: 0.625rem;
+    text-decoration: none;
+    color: #acacac;
+}
+.promena .trenutna
+{
+    color: #484848;
+}
+.promena .sledeca
+{
+    color: white;
+}
+
+.promena a:hover
+{
+    color: #484848;
+}
+.promena .sledeca:hover
+{
+    color: rgb(156, 26, 26);
+}
+.sledeca ion-icon
+{
+    border-radius: 50%;
+    border: 1px solid;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.promena .sledeca2:hover
+{
+    color: rgb(156, 26, 26);
+}
+.promena .sledeca2
+{
+    color: white;
+}
+.sledeca2 ion-icon
+{
+    border-radius: 50%;
+    border: 1px solid;
+    vertical-align: middle;
+    padding: 6px;
+}
+@media only screen and (min-width: 768px ) and (max-width: 1024px)
+{
+    .col-12 .velicinaFontaZivot
+    {
+        font-size: 18px;
+    }
+}

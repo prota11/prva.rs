@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/prva.css">
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <title>Prva Srpska Televizija</title>
+</head>
+<body style="font-family: 'Dosis', serif;">
+    <div class="container-fluid d-none d-md-block" style="background: rgb(66, 66, 66);">
+        <div class="row" style="max-width: 1050px; margin: 0 auto;">
+            <div class="col-12">
+                <ul class="nav d-flex justify-content-end list">
+                    <li class="nav-item">
+                        <span id="prva">PRVA KABL</span>
+                        <span class="arrow"><ion-icon name="play"></ion-icon></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="plus.html" class="plus"><span class="top rounded-pill">PLUS</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="max"><span class="top rounded-pill">MAX</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="world"><span class="top rounded-pill">WORLD</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="kick"><span class="top rounded-pill">KICK</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="life"><span class="top rounded-pill">LIFE</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="files"><span class="top rounded-pill">FILES</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <span id="follow">PRATITE NAS</span>
+                        <span class="arrow"><ion-icon name="play"></ion-icon></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="icons"><img src="images/facebook.svg" alt="facebook"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="icons"><img src="images/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="icons"><img src="images/instagram.svg" alt="instagram"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="icons"><img src="images/youtube.svg" alt="youtube"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-none d-md-block" style="background: linear-gradient(90deg, rgba(164, 20, 25, 1) 0%, rgba(237, 63, 69, 1) 100%);">
+        <div class="row" style="max-width: 1050px; margin: 0 auto;">
+            <div class="col-1 logo">
+                <a href="prva.html"><img src="images/logo.svg" alt="logo"></a>
+            </div>
+            <div class="col-11 menu">
+                <ul class="nav d-flex justify-content-end">
+                    <li class="nav-item">
+                        <a href="program.html"><span>PROGRAM</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="webtv.html"><span>WEB TV</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><span>VESTI</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="zivot.html"><span>ŽIVOT</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><span>SHOWBIZ</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nagranici.html"><span>NA GRANICI</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><span>SINĐELIĆI</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><span>TLZP</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html"><ion-icon name="search"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background: linear-gradient(90deg, rgba(164, 20, 25, 1) 0%, rgba(237, 63, 69, 1) 100%);">
+        <div class="row d-md-none">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex" style="width: 100%; height: auto; padding: 0;">
+                <div class="col-8 offset-2 text-center">
+                    <span style="color: white; font-size: 18px;">PRVA</span>
+                </div>
+                <div class="col-2 d-flex justify-content-end">
+                    <a class="navbar-brand" href="search.html"><ion-icon name="search" style="color: white; height: 18px; width: 18px;"></ion-icon></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
+                        <div class="izgledHamburgera"><span class="skraceni"></span><span></span><span></span></div>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav" style="padding: 0 15px;">
+                        <li class="nav-item active">
+                            <a class="nav-link float-left" style="width: 90%; color: white;" href="program.html">PROGRAM</a>
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle float-right" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Programska šema</a>
+                                    <a class="dropdown-item" href="#">Serija</a>
+                                    <a class="dropdown-item" href="#">Emisija</a>
+                                    <a class="dropdown-item" href="#">Film</a>
+                                    <a class="dropdown-item" href="#">Info</a>
+                                    <a class="dropdown-item" href="#">WEB TV specijali</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link float-left" style="width: 90%; color: white;" href="webtv.html">WEB TV</a>
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle float-right" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Najnovije</a>
+                                    <a class="dropdown-item" href="#">Info</a>
+                                    <a class="dropdown-item" href="#">Serija</a>
+                                    <a class="dropdown-item" href="#">Emisija</a>
+                                    <a class="dropdown-item" href="#">Specijali</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">VESTI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link float-left" style="width: 90%; color: white;" href="zivot.html">ŽIVOT</a>
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle float-right" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Ljubav i seks</a>
+                                    <a class="dropdown-item" href="#">Zdravlje</a>
+                                    <a class="dropdown-item" href="#">Dom i porodica</a>
+                                    <a class="dropdown-item" href="#">Životne priče</a>
+                                    <a class="dropdown-item" href="#">Lepota</a>
+                                    <a class="dropdown-item" href="#">Kuhinjica</a>
+                                    <a class="dropdown-item" href="#">Astro</a>
+                                    <a class="dropdown-item" href="#">Zanimljivosti</a>
+                                    <a class="dropdown-item" href="#">Urban</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link float-left" style="width: 90%; color: white;" href="#">SHOWBIZ</a>
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle float-right" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Showbiz vesti</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="nagranici.html">NA GRANICI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">SINĐELIĆI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">TLZP</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center border-top border-bottom">
+                        <a class="nav-link" href="#"><img src="images/facebook.svg" alt="" style="width: 50px; padding-right: 10px;"></a>
+                        <a class="nav-link" href="#"><img src="images/twitter.svg" alt="" style="width: 50px;padding-right: 10px;"></a>
+                        <a class="nav-link" href="#"><img src="images/instagram.svg" alt="" style="width: 50px;padding-right: 10px;"></a>
+                        <a class="nav-link" href="#"><img src="images/youtube.svg" alt="" style="width: 50px;padding-right: 10px;"></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="plus.html">Prva Plus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prva Max</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prva World</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prva Kick</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prva Life</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prva Files</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-bottom" style="color: white;" href="#">Tvoje lice zvuči poznato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Menadžment TV Prva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Studio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">16:9 - Podešavanje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Posao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Praksa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Oglašavanje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="kontakt.html">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Impresum sajta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Uslovi korišćenja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Prijava smetnji</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div> 
+    </div>
+    <div class="container-fluid" style="background: #f5f5f5;">
+        <div class="row" style="max-width: 1050px; margin: 0 auto;">
+            <div class="col-12 col-md-7 col-lg-8">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators d-md-none" style="margin-bottom: 40px">
+                                <li data-target="#carouselExampleIndicators"  data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" style="padding-top: 30px;">
+                                <div class="carousel-item active" style="margin-bottom: 30px;">
+                                    <a href="#" class="levi1">
+                                        <img class="img-responsive levaSlika1" src="images/levaSlika1.jpg" alt="">
+                                        <div class="carousel-caption naslovSlika1" style="height: 60px;">
+                                            <span class="font-weight-bold rounded-pill">SERIJA</span>
+                                        </div>
+                                        <div class="carousel-caption text1" style="top: 60%;">
+                                            <div class="textblock1 text-left">
+                                                <h2 class="tekstSlika1">Besa - 7. epizoda - Pritisak ispituje granice u porodici</h2>
+                                                <span class="datum2">11. 11. 2019.</span class="datum2">
+                                            </div>
+                                        </div>
+                                    </a>
+                              </div>
+                              <div class="carousel-item" style="margin-bottom: 30px;">
+                                    <a href="#" class="levi1">
+                                        <img class="img-responsive levaSlika1" src="images/levaSlika1-2.jpg" alt="">
+                                        <div class="carousel-caption naslovSlika1" style="height: 60px;">
+                                            <span class="font-weight-bold rounded-pill">SERIJA</span>
+                                        </div>
+                                        <div class="carousel-caption text1" style="top: 60%;">
+                                            <div class="textblock1 text-left">
+                                                <h2 class="tekstSlika1">Na granici - Ponedeljak, 16.decembar - Tomo napada glumca misleći da je kriminalac</h2 class="tekstSlika1">
+                                                <span class="datum2">16. 12. 2019.</span class="datum2">
+                                            </div>
+                                        </div>
+                                    </a>
+                              </div>
+                              <div class="carousel-item" style="margin-bottom: 30px;">
+                                    <a href="#" class="levi1">
+                                        <img class="img-responsive levaSlika1" src="images/levaSlika1-3.jpg" alt="">
+                                        <div class="carousel-caption naslovSlika1" style="height: 60px;">
+                                            <span class="font-weight-bold rounded-pill">PRVA TE ZOVE</span>
+                                        </div>
+                                        <div class="carousel-caption text1" style="top: 60%; ">
+                                            <div class="textblock1 text-left">
+                                                <h2 class="tekstSlika1">Radnim danima u 19:45</h2 class="tekstSlika1">
+                                                <span class="datum2">04. 11. 2019.</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                        <a href="sindjelici.html" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa" src="images/levaSlika2.jpg" >
+                            <div class="carousel-caption naslovGrupa">
+                                <span class="font-weight-bold rounded-pill">WEB TV</span>
+                            </div>
+                            <div class="carousel-caption textGrupa">
+                                <div class="textblockGrupa text-left">
+                                    <h2 class="velicinaFontaGrupa">Sinđelići - 35. epizoda - 5. sezona</h2>
+                                    <span>Serija</span>
+                                    <div class="carousel-caption start start2">
+                                        <ion-icon name="play"></ion-icon>    
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa" src="images/levaSlika3.jpg" style="width: 100%;">
+                            <div class="carousel-caption naslovGrupa">
+                                <span class="font-weight-bold rounded-pill">WEB TV</span>
+                            </div>
+                            <div class="carousel-caption textGrupa">
+                                <div class="textblockGrupa text-left">
+                                    <h2 class="velicinaFontaGrupa">Loto - 08.11.2019 <br><br></h2>
+                                    <span>Emisija</span>
+                                    <div class="carousel-caption start start2">
+                                        <ion-icon name="play"></ion-icon>    
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa" src="images/levaSlika4.jpg" style="width: 100%;">
+                            <div class="carousel-caption naslovGrupa">
+                                <span class="font-weight-bold rounded-pill">WEB TV</span>
+                            </div>
+                            <div class="carousel-caption textGrupa">
+                                <div class="textblockGrupa text-left">
+                                    <h2 class="velicinaFontaGrupa">Prva te zove - 08.11.2019. <br><br></h2>
+                                    <span>Emisija</span>
+                                    <div class="carousel-caption start start2">
+                                        <ion-icon name="play"></ion-icon>    
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa" src="images/levaSlika5.jpg" style="width: 100%;">
+                            <div class="carousel-caption naslovGrupa">
+                                <span class="font-weight-bold rounded-pill">WEB TV</span>
+                            </div>
+                            <div class="carousel-caption textGrupa">
+                                <div class="textblockGrupa text-left">
+                                    <h2 class="velicinaFontaGrupa">Exploziv - 08.11.2019. <br><br></h2>
+                                    <span>Info</span>
+                                    <div class="carousel-caption start start2">
+                                        <ion-icon name="play"></ion-icon>    
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa" src="images/levaSlika6.jpg" style="width: 100%;">
+                            <div class="carousel-caption naslovGrupa">
+                                <span class="font-weight-bold rounded-pill">WEB TV</span>
+                            </div>
+                            <div class="carousel-caption textGrupa">
+                                <div class="textblockGrupa text-left">
+                                    <h2 class="velicinaFontaGrupa">Exkluziv - 08.11.2019. <br><br></h2>
+                                    <span>Emisija</span>
+                                    <div class="carousel-caption start start2">
+                                        <ion-icon name="play"></ion-icon>    
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div> 
+                    <div class="col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa" src="images/levaSlika7.jpg" style="width: 100%;">
+                            <div class="carousel-caption naslovGrupa">
+                                <span class="font-weight-bold rounded-pill">WEB TV</span>
+                            </div>
+                            <div class="carousel-caption textGrupa">
+                                <div class="textblockGrupa text-left">
+                                    <h2 class="velicinaFontaGrupa">150. minuta - 08.11.2019. <br><br></h2>
+                                    <span>Emisija</span>
+                                    <div class="carousel-caption start">
+                                        <ion-icon name="play"></ion-icon>    
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="slika.html" class="levi1">
+                            <img class="img-responsive levaSlika2" src="images/levaSlika8.jpg" alt="">
+                            <div class="caption naslovSlika2">
+                                <span class="font-weight-bold rounded-pill">ASTRO</span>
+                            </div>
+                            <div class="carousel-caption text-left text2">
+                                <h2 class="tekstSlika2">Kod njih ljubav znači "igru" na sve ili ništa! Da li ste među ovih PET horoskopskih znakova?</h2>
+                                <span class="datum2">11. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika9.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">DOM I PORODICA</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Kada ostaviti dete samo u stanu: Po našem zakonu je sedam godina, a u inostranstvu je 12, uz strogu kontrolu</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika10.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">ŽIVOTNE PRIČE</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Nebojša Dugalić je pre svega porodičan čovek i kaže: „Danas je retkost da imate petoro dece, a nekad bi vam govorili „SAMO“</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika11.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">KUHINJICA</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Zaboravili ste na recept naših baka, a jednostavan je i preukusan: Makarone, propržene prezle i šećer. Dovoljno!</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika12.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">LEPOTA</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Genijalan TRIK za čišćenje BELOG ĐONA na patikama <span class="d-none d-md-block"><br></span><span class="d-none d-md-block"><br></span></h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="levi1">
+                            <img class="img-responsive levaSlika2" src="images/levaSlika13.jpg" alt="">
+                            <div class="caption naslovSlika2">
+                                <span class="font-weight-bold rounded-pill">ZDRAVLJE</span>
+                            </div>
+                            <div class="carousel-caption text-left text2">
+                                <h2 class="tekstSlika2">Kad telo više ne može da izdrži: 20 znakova da pucate od stresa</h2>
+                                <span class="datum2">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika14.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">INFO</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Svega 4 odsto građana se vezuje na zadnjem sedištu <span class="d-none d-md-block"><br></span></h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika15.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">SHOWBIZ VESTI</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Razvija se zabranjena ljubav u "Besi": Milan Marić i Milica Gojković odlaze korak dalje</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika16.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">ZANIMLJIVOSTI</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Volite da putujete? Ova vest će vas onda sigurno obradovati!<span class="d-none d-md-block"><br></span><span class="d-none d-md-block"><br></span></h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika17.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">SHWOBIZ VESTI</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Šeron Stoun, u sedmoj deceniji, ponovila kultnu scenu iz "Niskih strasti": "Ovaj trenutak mi je promenio život" (VIDEO)</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="levi1">
+                            <img class="img-responsive levaSlika2" src="images/levaSlika18.jpg" alt="">
+                            <div class="caption naslovSlika2">
+                                <span class="font-weight-bold rounded-pill">SHOWBIZ VESTI</span>
+                            </div>
+                            <div class="carousel-caption text-left text2">
+                                <h2 class="tekstSlika2">Sloboda Mićalović o lekarki koja joj je pružila pomoć na sceni: „Želim da joj se zahvalim i volela bih da ima više takvih ljudi“</h2>
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum2">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika19.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">ASTRO</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Rakovi su danas voljeni, Lavovi raspoloženiji, a Škorpije potpuno posvećene odmoru... Kakva je vaša subota?</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika20.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">DOM I PORODICA</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Nekoliko imena za decu koja znače — ČUDO <span class="d-none d-md-block"><br></span><span class="d-none d-md-block"><br></span></h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika21.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">SHOWBIZ VESTI</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Lukas: Ovde mi nijedna nije devojka, sve su mi drugarice</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika22.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">ZDRAVLJE</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Najbolji lek jeseni: Da li znate šta sve leči dunja?</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="levi1">
+                            <img class="img-responsive levaSlika2" src="images/levaSlika23.jpg" alt="">
+                            <div class="caption naslovSlika2">
+                                <span class="font-weight-bold rounded-pill">ASTRO</span>
+                            </div>
+                            <div class="carousel-caption text-left text2">
+                                <h2 class="tekstSlika2">Njima se nemojte zamerati: Rođeni u ovim znakovima najbrže će vam postati neprijatelji</h2>
+                                <span class="datum2">09. 11. 2019.</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika24.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">LJUBAV I SEKS</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Ako vam smeta što seks sa partnerom traje kratko, ovo su načini da ga produžite i doživite jak vrhunac</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika25.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">SHOWBIZ VESTI</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Slavljenik Šašić dobio poklon od Exkluziva: „Sreća, pa imam masku da ne vidite moj izraz lica koji je uzbuđen i zbunjen“</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="videoText rounded-pill">VIDEO</span>
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika26.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">LJUBAV I SEKS</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Postoji PET vrsta ljubavi: Koju preskočiti, a za koju se boriti? <span class="d-none d-md-block"><br></span></h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12" style="margin-bottom: 30px;">
+                        <a href="#" class="grupa">
+                            <img alt="" class="img-responsive slikaGrupa2" src="images/levaSlika27.jpg" style="width: 100%;">
+                            <div class="caption naslovGrupa2 w-75">
+                                <span class="font-weight-bold rounded-pill">ZANIMLJIVOSTI</span>
+                            </div>
+                            <div class="card-body textblockGrupa2">
+                                <h2 class="card-text">Da li i vi imate ovih 7 mana? Rezervisane su isključivo za natprosečno inteligentne ljude...</h2>
+                            </div>
+                            <div class="card-footer date">
+                                <span class="datum">09. 11. 2019.</span>
+                            </div>                       
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12 preporuke">
+                            <h5 class="font-weight-bold" style="padding: 20px 0;">Web preporuke</h5>
+                            <div class="row">
+                                <div class="col-12 col-md-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika28.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Ovako Kim obudžava svoje elitne specijalce! Njima ni stena ni sekira ne mogu ništa! (VIDEO)</a>
+                                </div>
+                                <div class="col-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika29.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstReklama">Najbolja ponuda laptopova</a>
+                                    <div class="col-12" style="font-size: 14px;">
+                                        <span class="badge badge-success">Оглас</span>
+                                        <a href="#" style="color: #8c8c8c; padding-top: 5px;">WinWin</a>
+                                        <a href="#" class="btn float-right dugmeReklama">Kupite odmah</a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika30.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">ANKETA: Najbolji grad za doček Nove godine je...</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika31.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Mali: Ogroman stepen mržnje usmeren na Vučića</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika32.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Nina Badrić se ubila od alkohola: "Loš i težak osećaj"</a>
+                                </div>
+                                <div class="col-12 col-md-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika33.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Đorđević odao počast žrtvama Holokausta u Izraelu</a>
+                                </div>
+                                <div class="col-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika29.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstReklama">Najbolja ponuda laptopova</a>
+                                    <div class="col-12" style="font-size: 14px;">
+                                        <span class="badge badge-success">Оглас</span>
+                                        <a href="#" style="color: #8c8c8c; padding-top: 5px;">WinWin</a>
+                                        <a href="#" class="btn float-right dugmeReklama">Kupite odmah</a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika34.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Tomane oduševljen posle majstorije koju je izveo protiv Spartaka</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika35.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Severina prvi put stala pred kamere nakon gubtika deteta: Otkrila</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika36.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Ceca i Anastasija su nosile svetle pantalone, a nisu se providele! Ako znate ove trikove, nećete ni vi imati</a>
+                                </div>
+                                <div class="col-12 col-md-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika37.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Đorđević odao počast žrtvama Holokausta u Izraelu</a>
+                                </div>
+                                <div class="col-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika41.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstReklama">Naučila sam engleski s lakoćom</a>
+                                    <div class="col-12" style="font-size: 14px;">
+                                        <span class="badge badge-success">Оглас</span>
+                                        <a href="#" style="color: #8c8c8c; padding-top: 5px;">hitechno-blog.com</a>
+                                        <a href="#" class="btn float-right dugmeReklama">Visit site</a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika38.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Mirza Delibašić, poslednji košarkaški romantik: Umro je od bolesti koja</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika39.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Selektor zadovoljan posle sjajnog trijumfa, a tek slede najljući dueli</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika40.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Kurdi napali nemilosrdno! "Hamze" potpuno razbijene!</a>
+                                </div>
+                                <div class="col-12 col-md-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika42.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Remi Osasune i Sevilje</a>
+                                </div>
+                                <div class="col-6" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika41.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstReklama">Naučila sam engleski s lakoćom</a>
+                                    <div class="col-12" style="font-size: 14px;">
+                                        <span class="badge badge-success">Оглас</span>
+                                        <a href="#" style="color: #8c8c8c; padding-top: 5px;">hitechno-blog.com</a>
+                                        <a href="#" class="btn float-right dugmeReklama">Visit site</a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika43.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">"Nije realno da stignemo Liverpul"! Španac tvrdi da samo jedno preostaje</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika44.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Potom je "priveo" devojku kući, tada je opasno zažalila što je</a>
+                                </div>
+                                <div class="col-6 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#"><img alt="" class="img-responsive" src="images/levaSlika45.jpg" style="width: 100%;"></a>
+                                    <a href="#" class="tekstPreporuke">Štimac i Kalinić dvocifreni, Fenerbahče na +33</a>
+                                </div>
+                                <div class="col-12" style="border-bottom: 1px solid hsla(0, 0%, 80%, .4); margin-bottom: 10px;">
+                                    <a href="#" class="float-right"><img class="img-responsive ce" src="images/ce.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 50px;">
+                    <div class="col-12">
+                        <div class="col-12 preporuke">
+                            <h5 class="font-weight-bolder" style="padding: 20px 0;">VIŠE S WEBA</h5>
+                            <div class="row">
+                                <div class="col-12 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#" class="font-weight-bold tekstVeb"><img alt="" class="img-responsive" src="images/levaSlika46.jpg" style="width: 100%;">Lav flertuje na poslu, Vaga napeta, Strelac bolje da "prikoči"</a>
+                                </div>
+                                <div class="col-12 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#" class="font-weight-bold tekstVeb"><img alt="" class="img-responsive" src="images/levaSlika47.jpg" style="width: 100%;">Bojsi ODUŠEVIO na Twitteru: "Ovako se zovemo u Srbiji!"</a>
+                                </div>
+                                <div class="col-12 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#" class="font-weight-bold tekstVeb"><img alt="" class="img-responsive" src="images/levaSlika48.jpg" style="width: 100%;">Ivana Španović pokazala novog dečka na Instagramu? (FOTO, VIDEO)</a>
+                                </div>
+                                <div class="col-12 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#" class="font-weight-bold tekstVeb"><img alt="" class="img-responsive" src="images/levaSlika49.jpg" style="width: 100%;">Hitno izbacite ovo iz ishrane i smršaćete neverovatnom brzinom</a>
+                                </div>
+                                <div class="col-12 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#" class="font-weight-bold tekstVeb"><img alt="" class="img-responsive" src="images/levaSlika50.jpg" style="width: 100%;">Preti nam pakao kojeg se i sama medicina plaši</a>
+                                </div>
+                                <div class="col-12 col-md-4" style="margin-bottom: 20px;">
+                                    <a href="#" class="font-weight-bold tekstVeb"><img alt="" class="img-responsive" src="images/levaSlika51.jpg" style="width: 100%;">Dobili zdravu i pravu devojčicu, a onda je usledio šok! (FOTO)</a>
+                                </div>
+                                <div class="col-12" style="margin-bottom: 50px;">
+                                    <a href="#" class="float-right"><img class="img-responsive ce" src="images/logoMidas.svg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="row">
+                    <div class="col-md-12 col-8 offset-2 offset-md-0 desnaReklama"  style="padding-top: 30px;">
+                        <a href="#"><img src="images/desnaSlika1.jpg" alt="desnaSlika1"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-8 offset-2 offset-md-0 desnaReklama">
+                        <a href="#"><img src="images/desnaSlika2.jpg" alt="desnaSlika2"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 program">
+                        <div class="carousel-caption programNaslov">
+                            <span class="font-weight-bold rounded-pill">TRENUTNO NA PROGRAMU</span>
+                        </div>
+                        <div class="col-12 programItem1 d-flex" >
+                            <div class="col-2" style="padding-top: 20px;">
+                                20:00
+                            </div>
+                            <div class="col-10 programName" style="padding-top: 20px;">
+                                <a href="#" class="programTekst">Loto</a>
+                                <a href="#" class="play"><ion-icon name="play"></ion-icon></a>
+                            </div>
+                        </div>
+                        <div class="col-12 programItem2 d-flex">
+                            <div class="col-2">
+                                20:10
+                            </div>
+                            <div class="col-10 programName">
+                                <a href="#" class="programTekst">Na granici</a>
+                                <a href="#" class="play"><ion-icon name="play"></ion-icon></a>
+                            </div>
+                        </div>
+                        <div class="col-12 programItem1 d-flex">
+                            <div class="col-2">
+                                21:00
+                            </div>
+                            <div class="col-10 programName">
+                                <a href="#" class="programTekst">Tvoje lice zvuči poznato</a>
+                                <a href="#" class="play"><ion-icon name="play"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12 preporuke" style="padding: 50px 15px 30px 15px">
+                            <div class="carousel-caption naslovVesti" style="z-index: 0;">
+                                <span class="font-weight-bold rounded-pill">NAJNOVIJE VESTI</span>
+                            </div>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika3.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Njima se nemojte zamerati: Rođeni u ovim znakovima najbrže će vam postati neprijatelji</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika4.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Ako vam smeta što seks sa partnerom traje kratko, ovo su načini da ga produžite i doživite jak vrhunac</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika5.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Slavljenik Šašić dobio poklon od Exkluziva: „Sreća, pa imam masku da ne vidite moj izraz lica koji je uzbuđen i zbunjen“</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika6.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Postoji PET vrsta ljubavi: Koju preskočiti, a za koju se boriti?</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika7.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Da li i vi imate ovih 7 mana? Rezervisane su isključivo za natprosečno inteligentne ljude...</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12 preporuke" style="padding: 50px 15px 30px 15px">
+                            <div class="carousel-caption naslovVesti" style="z-index: 0;">
+                                <span class="font-weight-bold rounded-pill">B92</span>
+                            </div>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika8.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">"Makron previše vremena provodio sa Grabar Kitarović"</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika9.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Kada Željko podvikne i navijači zaćute VIDEO</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika10.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Digitalna simulacija: Rusija pronašla način da dvostruko ubrza razvoj streljačkog oružja</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika11.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Šeron Stoun, u sedmoj deceniji, ponovila kultnu scenu koja joj je promenila život VIDEO</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12 preporuke" style="padding: 50px 15px 30px 15px">
+                            <div class="carousel-caption naslovVesti" style="z-index: 0;">
+                                <span class="font-weight-bold rounded-pill">ASTRO ZANIMLJIVOSTI</span>
+                            </div>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika12.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Njima se nemojte zamerati: Rođeni u ovim znakovima najbrže će vam postati neprijatelji</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika13.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Bikovi danas emotivno napeti, pred Strelčevima fenomenalna ljubavna prilika, Jarčevi imaju tenzije na poslu</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika14.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Nisu čuli za izreku "Kao kiša oko Kragujevca": Predstavljamo vam pet najdirektnijih znakova horoskopa</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika15.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Jedina nada za Bikove danas je da zatraže pomoć, tranzitni Mesec doneće Strelčevima promenljivo raspoloženje sa ukućanima</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika16.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">PET najvećih mana svakog horoskopskog znaka - ČUVAJTE SE! Ovan ne kontroliše bes, Bikovi su lenji, a Vage manipulatori...</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12 preporuke" style="padding: 50px 15px 30px 15px">
+                            <div class="carousel-caption naslovVesti" style="z-index: 0;">
+                                <span class="font-weight-bold rounded-pill">NAJČITANIJE</span>
+                            </div>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika17.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Njima se nemojte zamerati: Rođeni u ovim znakovima najbrže će vam postati neprijatelji</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika18.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Šokirao voditelja i gledaoce: Isprovociran komentarom jednog gledaoca, usred emisije, Petar Čelik se skinuo</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika19.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">PET stvari o seksu koje želite da znate ali se bojite da pitate</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika20.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Konj utrčava u dim, hita prema požaru odakle su ga upravo spasli: Kad vidite povratak, srce će vam zaigrati! (VIDEO)</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika21.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Bikovi danas emotivno napeti, pred Strelčevima fenomenalna ljubavna prilika, Jarčevi imaju tenzije na poslu</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12 preporuke" style="padding: 50px 15px 30px 15px">
+                            <div class="carousel-caption naslovVesti" style="z-index: 0;">
+                                <span class="font-weight-bold rounded-pill">FACEBOOK</span>
+                            </div>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika22.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Divne vesti: Mala Helena je operisana, prima hemioterapije u Francuskoj, a suma za nastavak lečenja je sakupljena</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika23.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Šokirao voditelja i gledaoce: Isprovociran komentarom jednog gledaoca, usred emisije, Petar Čelik se skinuo</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika24.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Konj utrčava u dim, hita prema požaru odakle su ga upravo spasli: Kad vidite povratak, srce će vam zaigrati! (VIDEO)</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika25.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">PET najvećih mana svakog horoskopskog znaka - ČUVAJTE SE! Ovan ne kontroliše bes, Bikovi su lenji, a Vage manipulatori...</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="row" style="margin-bottom: 20px;">
+                                    <div class="col-4 col-md-5">
+                                        <img class="img-responsive slikaVesti" src="images/desnaSlika26.jpg" alt="">
+                                    </div>
+                                    <div class="col-8 col-md-7">
+                                        <span class="tekstDesna">Tragedija u Nišu: Dete palo s 12. sprata, na mestu mrtvo</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background: linear-gradient(90deg, rgba(164, 20, 25, 1) 0%, rgba(237, 63, 69, 1) 100%);">
+        <div class="row" style="padding: 30px 0; max-width: 1050px; margin: 0 auto;">
+             <div class="col-sm-12 col-md-10 order-2 order-md-1">
+                <div class="col-12 upper">
+                    <a href="#">Prva</a>
+                    <a href="#">Menadžment TV Prva</a>
+                    <a href="#">Studio</a>
+                    <a href="#">16:9 - Podešavanje</a>
+                    <a href="#">Posao</a>
+                    <a href="#">Praksa</a>
+                    <a href="#">Oglašavanje</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="#">Impresum sajta</a>
+                    <a href="#">Uslovi korišćenja</a>
+                    <a href="#">Prijava smetnji</a>
+                    <a href="#">Aplikacije</a>
+                    <a href="#">Saopštenja</a>
+                </div>
+                <div class="col-12 lower">
+                    <p>PRVA je organizacija koja brine o zaštiti životne sredine.<br>Mi ublažavamo štetu nastalu zagađenjem u avio-saobraćaju i ulažemo napore da se smanji emisija izduvnih gasova. climatecare.org</p>
+                    <p>Copyright © 2010 - 2019 Prva Srpska Televizija. Sva prava zadržana.</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2 order-1 order-md-2 logo2 align-middle">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
